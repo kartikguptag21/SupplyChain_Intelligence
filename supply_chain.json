@@ -1,0 +1,32 @@
+
+{
+  "product": "EV Battery Pack",
+  "companies": [
+    {
+      "id": 682349,
+      "name": "Albemarle Corporation",
+      "domain": "albemarle.com",
+      "role": "Lithium producer",
+      "headquarters": "Charlotte, North Carolina, USA"
+    },
+    {
+      "id": 681811,
+      "name": "Ford Motor Company",
+      "domain": "ford.com",
+      "role": "Automotive manufacturer",
+      "headquarters": "Dearborn, Michigan, USA"
+    }
+  ],
+  "relationships": [
+    {
+      "supplier": "Albemarle Corporation",
+      "customer": "Ford Motor Company",
+      "material": "Battery-grade lithium hydroxide",
+      "status": "Verified",
+      "agreement_date": "2023-05-22",
+      "quantity": "More than 100000 metric tons",
+      "period": "2026-2030",
+      "source": "https://www.albemarle.com/us/en/news/albemarle-establishes-strategic-agreement-ford-motor-company"
+    }
+  ]
+}

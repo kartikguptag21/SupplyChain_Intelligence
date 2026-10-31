@@ -1,0 +1,36 @@
+
+{
+  "product": "EV Battery Pack",
+  "components": [
+    {
+      "component": "Battery Cells",
+      "materials": [
+        "Lithium",
+        "Nickel",
+        "Cobalt",
+        "Graphite"
+      ]
+    },
+    {
+      "component": "Battery Casing",
+      "materials": [
+        "Aluminium",
+        "Steel"
+      ]
+    },
+    {
+      "component": "Battery Management System",
+      "materials": [
+        "Semiconductors",
+        "PCBs"
+      ]
+    },
+    {
+      "component": "Cooling System",
+      "materials": [
+        "Copper",
+        "Aluminium"
+      ]
+    }
+  ]
+}
