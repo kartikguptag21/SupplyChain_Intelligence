@@ -15,18 +15,100 @@
       "domain": "ford.com",
       "role": "Automotive manufacturer",
       "headquarters": "Dearborn, Michigan, USA"
+    },
+    {
+      "id": 5036992,
+      "name": "BYD Company Limited",
+      "domain": "byd.com.cn",
+      "role": "EV and battery manufacturer",
+      "headquarters": "Shenzhen, China",
+      "status": "Candidate"
+    },
+    {
+      "id": 6127937,
+      "name": "LG Energy Solution",
+      "domain": "lgensol.com",
+      "role": "EV battery cell manufacturer",
+      "headquarters": "Seoul, South Korea",
+      "status": "Candidate"
+    },
+    {
+      "id": 1060170,
+      "name": "Samsung SDI",
+      "domain": "samsungsdi.com",
+      "role": "Battery cell manufacturer",
+      "headquarters": "Yongin, South Korea",
+      "status": "Candidate"
+    },
+    {
+      "id": 690087,
+      "name": "SK On",
+      "domain": "sk-on.com",
+      "role": "EV battery manufacturer",
+      "headquarters": "Seoul, South Korea",
+      "status": "Candidate"
+    },
+    {
+      "id": 1060491,
+      "name": "Vale",
+      "domain": "vale.com",
+      "role": "Nickel producer",
+      "headquarters": "Rio de Janeiro, Brazil",
+      "status": "Candidate"
+    },
+    {
+      "id": 1126560,
+      "name": "Glencore",
+      "domain": "glencore.com",
+      "role": "Nickel and cobalt producer",
+      "headquarters": "Baar, Switzerland",
+      "status": "Candidate"
     }
   ],
-  "relationships": [
-    {
-      "supplier": "Albemarle Corporation",
-      "customer": "Ford Motor Company",
-      "material": "Battery-grade lithium hydroxide",
-      "status": "Verified",
-      "agreement_date": "2023-05-22",
-      "quantity": "More than 100000 metric tons",
-      "period": "2026-2030",
-      "source": "https://www.albemarle.com/us/en/news/albemarle-establishes-strategic-agreement-ford-motor-company"
-    }
-  ]
+    "relationships": [
+        {
+            "supplier": "Albemarle Corporation",
+            "customer": "Ford Motor Company",
+            "material": "Battery-grade lithium hydroxide",
+            "relationship_type": "Supply Agreement",
+            "status": "Active",
+            "agreement_date": "2023-05-22",
+            "quantity": "More than 100000 metric tons",
+            "period": "2026-2030",
+            "source": "https://www.albemarle.com/us/en/news/albemarle-establishes-strategic-agreement-ford-motor-company"
+        },
+        {
+            "supplier": "LG Energy Solution",
+            "customer": "Ford Motor Company",
+            "material": "EV batteries and battery modules",
+            "relationship_type": "Supply Agreement",
+            "status": "Cancelled",
+            "agreement_date": "2024-10-15",
+            "quantity": "109 GWh",
+            "period": "Original agreement: 2026 onward",
+            "source": "https://en.yna.co.kr/view/AEN20251217008200320"
+        },
+        {
+            "supplier": "Glencore",
+            "customer": "Samsung SDI",
+            "material": "Cobalt hydroxide",
+            "relationship_type": "Supply Agreement",
+            "status": "Expired",
+            "agreement_date": "2020",
+            "quantity": "Up to 21000 metric tons",
+            "period": "2020-2024",
+            "source": "https://www.glencore.com/media-and-insights/news/samsung-sdi-and-glencore-extend-their-long-term-strategic-cobalt-partnership"
+        },
+        {
+            "supplier": "SK On",
+            "customer": "Ford Motor Company",
+            "material": "EV battery manufacturing",
+            "relationship_type": "Joint Venture",
+            "status": "Dissolved",
+            "agreement_date": "2022",
+            "quantity": "Not applicable",
+            "period": "2022-2026",
+            "source": "https://en.yna.co.kr/view/AEN20260521011400320"
+        }
+    ]
 }
